@@ -1,0 +1,85 @@
+/* Especialidades */
+
+.container-titulo {
+    margin-top: 40px;
+}
+
+.especialidades {
+    margin-top: 40px;
+}
+.links-especialidades {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links-especialidades nav {
+    margin: 30px;    
+}
+
+.links-especialidades nav a {
+    text-decoration: none;
+    margin: 5px;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 2px solid #00cad1;
+}
+
+.links-especialidades a:hover {
+    color: #0d6e71;
+}
+
+.fb-especialidades {
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+
+.fb-especialidades img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tabela */
+
+.tabela-especialidades {
+    border-spacing: 0;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+}
+
+.tabela-especialidades thead tr {
+    background-color: #00cad1;
+    color: #fff;
+}
+
+.tabela-especialidades tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.tabela-especialidades tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+}
+
+.tabela-especialidades th, .tabela-especialidades td {
+    padding: 10px;
+}
+
+@media (max-width: 425px) {
+
+    .fb-especialidades img { display: none;}
+    .tabela-especialidades {width: 100%;}
+    .fb-especialidades {padding: 0;}
+}
+
+@media (max-width: 768px) {
+
+    .fb-especialidades img {display: none;}
+    .tabela-especialidades {width: 100%;}
+
+}
